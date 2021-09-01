@@ -1,26 +1,15 @@
-# NativeSettings plugin for Cordova (6/7)
-
-The plugin allows you to open OS settings on iOS 8/9/10 and Android, via cordova-based app. For example, it will allow you to open the keyboard settings, Wifi, bluetooth etc (full list below).
-
 ## Adding/Removing the Plugin
 It will be saved to the config.xml file
-
-Ionic Framework:
-
-```bash
-ionic cordova plugin (add|rm) cordova-open-native-settings
-```
-
 Cordova:
 
 ```bash
-cordova plugin (add|rm) cordova-open-native-settings --save
+cordova plugin (add|rm) @juanarancibia/cordova-open-native-settings --save
 ```
 
 or via npm (It will be saved to the package.json file)
 
 ```bash
-npm (install|uninstall) cordova-open-native-settings --save
+npm (install|uninstall) @juanarancibia/cordova-open-native-settings --save
 ```
 
 ## Using the plugin (opens Location Settings in Android and Application Settings in iOS)
@@ -51,54 +40,7 @@ In Android, by default it is opened in the same application as a new activity, t
 
 ## Settings Options (Android)
 
-Setting constant | Description
------------------|------------
-"accessibility" | Show settings for accessibility modules
-"account" | Show add account screen for creating a new account
-"airplane_mode" | Show settings to allow entering/exiting airplane mode
-"apn" | Show settings to allow configuration of APNs
-"application_details" | Show screen of details about a particular application
-"application_development" | Show settings to allow configuration of application development-related settings
-"application" | Show settings to allow configuration of application-related settings
-"battery_optimization" | Show screen for controlling which apps can ignore battery optimizations
-"biometric" | Show screen for configuring biometric based device security
-"bluetooth" | Show settings to allow configuration of Bluetooth
-"captioning" | Show settings for video captioning
-"cast" | Show settings to allow configuration of cast endpoints
-"data_roaming" | Show settings for selection of 2G/3G
-"date" | Show settings to allow configuration of date and time
-"display" | Show settings to allow configuration of display
-"dream" | Show Daydream settings
-"home" | Show Home selection settings
-"keyboard" | Show settings to configure input methods, in particular allowing the user to enable input methods
-"keyboard_subtype" | Show settings to enable/disable input method subtypes
-"locale" | Show settings to allow configuration of locale
-"location" | Show settings to allow configuration of current location sources
-"manage_all_applications" | Show settings to manage all applications
-"manage_applications" | Show settings to manage installed applications
-"memory_card" | Show settings for memory card storage
-"network" | Show settings for selecting the network operator
-"nfcsharing" | Show NFC Sharing settings
-"nfc_payment" | Show NFC Tap & Pay settings
-"nfc_settings" | Show NFC settings
-"notification_id" | Settings > Notifications
-"print" | Show the top level print settings
-"privacy" | Show settings to allow configuration of privacy options
-"quick_launch" | Show settings to allow configuration of quick launch shortcuts
-"search" | Show settings for global search
-"security" | Show settings to allow configuration of security and location privacy
-"settings" | Show system settings
-"show_regulatory_info" | Show the regulatory information screen for the device
-"sound" | Show settings to a llow configuration of sound and volume
-"storage" | Show settings for internal storage
-"store" | Open the Play Store page of the current application
-"sync" | Show settings to allow configuration of sync settings
-"usage" | Show settings to control access to usage information
-"user_dictionary" | Show settings to manage the user input dictionary
-"voice_input" | Show settings to configure input methods, in particular allowing the user to enable input methods
-"wifi_ip" | Show settings to allow configuration of a static IP address for Wi-Fi
 "wifi" | Show settings to allow configuration of Wi-Fi
-"wireless" | Show settings to allow configuration of wireless controls such as Wi-Fi, Bluetooth and Mobile networks
 
 
 ## Settings Options (iOS)
@@ -166,7 +108,7 @@ Setting constant | Description
 ```
 The MIT License
 
-Copyright (c) 2016 Guy Rombaut
+Copyright (c) 2021
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
