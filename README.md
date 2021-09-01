@@ -40,6 +40,8 @@ In Android, by default it is opened in the same application as a new activity, t
 
 ## Settings Options (Android)
 
+Setting constant | Description
+-----------------|------------
 "wifi" | Show settings to allow configuration of Wi-Fi
 
 
