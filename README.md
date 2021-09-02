@@ -1,3 +1,13 @@
+# Information
+Plugin for Cordova 7 based on (cordova-open-native-settings)[https://github.com/guyromb/cordova-open-native-settings]. Modified the android source code and only can open wifi settings.
+In order to open other native settings in android just add a new condition like this one:
+```java
+    if (action.equals("wifi")) {
+        	intent = new Intent(android.provider.Settings.ACTION_WIFI_SETTINGS);
+        }
+```
+You can get the android settings in (Android DOCS)[https://developer.android.com/reference/android/provider/Settings]
+
 ## Adding/Removing the Plugin
 It will be saved to the config.xml file
 Cordova:
