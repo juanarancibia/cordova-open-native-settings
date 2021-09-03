@@ -6,7 +6,7 @@ In order to open other native settings in android just add in this [file](./src/
         	intent = new Intent(android.provider.Settings.ACTION_WIFI_SETTINGS);
         }
 ```
-You can get android settings docs in [Android Docs](https://developer.android.com/reference/android/provider/Settings)
+You can get android settings list in [Android Docs](https://developer.android.com/reference/android/provider/Settings)
 
 ## Adding/Removing the Plugin
 It will be saved to the config.xml file
