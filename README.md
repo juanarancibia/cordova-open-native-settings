@@ -114,7 +114,7 @@ Setting constant | Description
 * Android plugin based on the following information: https://developer.android.com/reference/android/provider/Settings.html#ACTION_DREAM_SETTINGS
 * iOS plugin based on the following information: https://gist.github.com/phynet/471089a51b8f940f0fb4
 * In iOS, this plugin generates a URL scheme for the *-Info.plist configurations file.
-* The plugin for Android is based on the forked repository and was refactored. The iOS part was built from skretch.
+* The plugin for iOS is based on the forked repository. The android also is based on the forked repository and was updated.
 
 ## License
 ```
